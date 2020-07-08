@@ -8,6 +8,8 @@
 <div id = "app"></div>
 
 
+<script>
+
 
 //the class way
 
@@ -43,6 +45,9 @@ var HelloWorld = React.createClass({
 */
 
 // props, style, className, state
+
+
+</script>
 
 </body>
 </html>
