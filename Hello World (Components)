@@ -11,22 +11,17 @@
 <script>
 
 
-//the class way
-
-
-
-
-class HelloWorld extends React.Component{
-  render(){ //method that returns jsx
-    return(
-    <h2>Hello World</h2>
-    )  //contains jsx code
+class HelloWorld extends React.Component {
+  render() {
+    return( 
+      <h2>Hello World</h2>
+    );
   }
- 
 }
 
+ReactDOM.render(<HelloWorld />, document.getElementById('app'));
 
-ReactDOM.render(< HelloWorld /> /*self closing tag*/, document.getElementById('app')); //takes two parameters
+
 
 
 
